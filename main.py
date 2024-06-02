@@ -6,6 +6,7 @@ import requests
 from concurrent.futures import ThreadPoolExecutor as tred
 
 os.system('clear')
+os.system('xdg-open https://www.facebook.com/mdjakaria.fiad/')
 logo = ("""
 \33[1;92m
 ▬ \33[1;92m███████ ██    ██ ██   ██  █████       \033[33;1m▬▬▬▬▬▬▬\33[1;92m
@@ -42,9 +43,11 @@ def main():
         pass
     def m2():
         os.system('clear')
+        os.system('xdg-open https://www.facebook.com/mdjakaria.fiad/')
         print(logo)
         mainx()
     def m3():
+        os.system('xdg-open https://www.facebook.com/mdjakaria.fiad/')
         runxo()
     if cho in ("A","a"):
         m1()
