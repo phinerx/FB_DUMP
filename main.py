@@ -5,7 +5,7 @@ import random
 import requests
 from concurrent.futures import ThreadPoolExecutor as tred
 
-
+os.system('clear')
 logo = ("""
 \33[1;92m
 ▬ \33[1;92m███████ ██    ██ ██   ██  █████       \033[33;1m▬▬▬▬▬▬▬\33[1;92m
@@ -42,9 +42,10 @@ def main():
     def m1():
         pass
     def m2():
+        os.system('clear')
         mainx()
     def m3():
-        pass
+        runxo()
     if cho in ("A","a"):
         m1()
     elif cho in ("B","b"):
