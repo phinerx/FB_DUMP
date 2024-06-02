@@ -1,6 +1,6 @@
 #----------Import -------------------#
 import os
-import test
+from test import *
 import random
 import requests
 from concurrent.futures import ThreadPoolExecutor as tred
@@ -21,7 +21,6 @@ logo = ("""
 \033[1;97m Tool    :            FB DUMP              █
 \033[1;32m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;37m""")
 def main():
-    pass
     print(logo)
     print("[A]Method 1{need login}")
     print("[B]Method 2 {No need Login}(Slow)")
