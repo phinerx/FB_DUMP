@@ -42,6 +42,7 @@ def main():
         pass
     def m2():
         os.system('clear')
+        print(logo)
         mainx()
     def m3():
         runxo()
